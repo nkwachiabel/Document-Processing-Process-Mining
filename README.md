@@ -49,3 +49,11 @@ This document was gotten from [here](https://data.4tu.nl/articles/dataset/Docume
 
 # Results and Visualisations
 Here are some visualisations showcasing the insights obtained from the document processing analysis:
+
+
+
+# Contribution
+Contributions to this repository are welcome!
+
+# Contact
+For any questions or inquiries, please contact nkwachiabel@gmail.com
