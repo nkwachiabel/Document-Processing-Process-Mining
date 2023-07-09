@@ -6,6 +6,8 @@ No,Events
 5,Marking Case
 6,Work on the Case
 7,Confirmation of the work on the Case
-8,Generate and send an outgoing Document
-9,Placing documents in an existing Case
-10,End
+8,Work on the Case Rework
+9,Confirmation of the work on the Case Rework
+10,Generate and send an outgoing Document
+11,Placing documents in an existing Case
+12,End
