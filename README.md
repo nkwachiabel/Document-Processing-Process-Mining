@@ -56,8 +56,13 @@ Here are some visualisations showcasing the insights obtained from the document 
    - Variant 2 contains 4,773 and represented 26.01% of all cases. This Variant only contains 3 activities (i.e., Register, Receiving a Document, Placing documents in an existing Case). The documents that fall into this variant are not invested in a new Case (i.e., <b>Investing Document into a new Case</b> activity is not performed). I believe this is because these documents have been received earlier and have an existing Case for them because they are placed in an existing case (i.e., <b>Placing documents in an existing Case</b> activity) rather than invested in a new case. In addition, the cases in this Variant do not contain the activity <b>Generate and send an outgoing Document</b>. Due to limited information, I can't confirm why this documents are not sent out.
    - Variant 3 contains 4,195 cases and represented 22.86% of all cases. This is similar to Variant 1, with the same activities. The difference was that the cases which falls into this variants had to be reworked on. The rework was done on the <b>Work on the Case</b> and <b>Confirmation of the work on the Case</b> activities. We do not see this as a deviation from the process.
   
-2. Most of the time is spent in <b>Confirming of the work on the Case</b> and <b>Marking Case</b> activity. These activities takes an average of 24 and 18 minutes respectively.
-3. 
+2. <b>Performance analysis</b>: This analysis is mainly concerned with time. We look at the timeline of the events to know if there are bottlenecks in the process. Here I used the average time of these activities to analyse the performance of the process. I acknowledge that other people might prefer using the median time, but I opted to use the average time for this analysis.
+   - The minimum duration for a process is 2 minutes. This occurs only for those cases in Variant 2 which requires fewer activities.
+   - The average duration for a case is 66 minutes. This means that majority of the cases were completed in less than a day. However there are outliers. 443 cases were completed after 1 day while 123 cases were completed in approximately 3 days. All the cases in both scenarios are in Variant 3, and the delay came from the <b>Confirmation of the work on the Case</b> activity. I believe this is majorly because of the rework that was done on these cases.
+   - The activities that takes majority of the time is the <b>Confirmation of the work on the Case</b> and <b>Marking Case</b> (an average of 24 and 18 minutes respectively)
+   - End activity: I expect the <b>Generate and send an outgoing Document</b> activity to be the last activity in the process. However, there is an additional activity <b>End activity</b> that takes place after this. In 70 cases, it took 15 hours for the end activity to be completed. For 11 cases out of these 70 cases, it took 63 hours for the end activity to be completed thereby extending the duration of these cases unnecessairly.
+     
+3. <b>Organisation Analysis</b>: Handover of work and Distribution of work between Users and Activities 
 
 
 
