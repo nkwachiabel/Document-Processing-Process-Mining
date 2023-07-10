@@ -69,10 +69,6 @@ Here are some visualisations showcasing the insights obtained from the document 
   
 - Handover of work analysis: This helps to analyse the handover of work between participants in order to gain additional understanding of the business process. If the process is well structured, it will follow some predefined route across users or units in the organisation. From the analysis carried out, the <b>Handover of work between System/Users</b> graph shows how the work flows between users. Starting from the Register activity done by the System, it is handed over to Group1 to Receive the document and create a new case. If it should be placed in an existing case, it goes to group7, else it goes to group2 down to group 6 who ends the process. This shows that there is a proper handover of work between the various groups.
 
-4. <b>Recommendations</b>:
-
-
-
 # Contribution
 Contributions to this repository are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
