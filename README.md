@@ -24,6 +24,7 @@ The goal of this project is to:
 6. Microsoft PowerBI
 
 # Data
+![alt text](https://github.com/nkwachiabel/Document-Processing-Process-Mining/blob/main/Images/Data%20Overview.jpg?raw=true)
 The given set of data contains information about the process of document processing. The process of processing documents contains the following activities: Receiving a Document, Creating a new Case, Investing Document into a new Case and so on. The data set contains information about the event name, event type, time of the event's execution and the participant whose execution the event is related to.
 
 The data is grouped into process instances and the file contains 18352 process instances with 149,693 events and 8 groups of users (7 humans and 1 system). The process contains 10 activites as seen in the image.
