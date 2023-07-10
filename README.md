@@ -49,11 +49,17 @@ This document was gotten from [here](https://data.4tu.nl/articles/dataset/Docume
 
 # Results and Visualisations
 Here are some visualisations showcasing the insights obtained from the document processing analysis:
+1. <b>Process flow of the document processing activity:</b> This analysis helped in identifying the actual process flow of the document processing activities with three variants.
+   - Variant 1 contains 9,384 and represented 51.13% of all cases. This covers the expected process from <b>Receiving the Document</b> until the <b>End</b> of the document processing activity.
+   - Variant 2 contains 4,773 and represented 26.01% of all cases. This Variant only contains 3 activities (i.e., Register, Receiving a Document, Placing documents in an existing Case). The documents that fall into this variant are not invested in a new Case (i.e., <b>Investing Document into a new Case</b> activity is not performed). I believe this is because these documents have been received earlier and have an existing Case for them because they are placed in an existing case (i.e., <b>Placing documents in an existing Case</b> activity) rather than invested in a new case. In addition, the cases in this Variant do not contain the activity <b>Generate and send an outgoing Document</b>. Due to limited information, I can't confirm why this documents are not sent out.
+   - Variant 3 contains 4,195 cases and represented 22.86% of all cases. This is similar to Variant 1, with the same activities. The difference was that the cases which falls into this variants had to be reworked on. The rework was done on the <b>Work on the Case</b> and <b>Confirmation of the work on the Case</b> activities. We do not see this as a deviation from the process.
+  
+2. Most of the time is spent in <b>Confirming of the work on the Case</b> and <b>Marking Case</b> activity. These activities takes an average of 24 and 18 minutes respectively.
 
 
 
 # Contribution
-Contributions to this repository are welcome!
+Contributions to this repository are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 # Contact
 For any questions or inquiries, please contact nkwachiabel@gmail.com
