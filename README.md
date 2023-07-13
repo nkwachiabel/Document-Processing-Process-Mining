@@ -40,7 +40,7 @@ Each event has a set of attributes that describes the event, and those attribute
 
 https://doi.org/10.4121/uuid:6df27e59-6221-4ca2-9cc4-65c66588c6eb
 
-### Contributors
+### Credits
 University of Sarajevo, Faculty of Electrical Engineering
 
 ### Publisher
@@ -68,6 +68,11 @@ Here are some visualisations showcasing the insights obtained from the document 
 - Segregation of duties: This shows how the activities are segregated between Users. Specifically, this shows for each user (i.e., group), how many activities in common do they perform. From the <b>Segregation of duties</b> visuals, we can see how the activities in this process is divided between the various groups. All other groups performs just one activity in the process except Group1, Group 6 and Group 7. This shows proper segregation of duties in this process.
   
 - Handover of work analysis: This helps to analyse the handover of work between participants in order to gain additional understanding of the business process. If the process is well structured, it will follow some predefined route across users or units in the organisation. From the analysis carried out, the <b>Handover of work between System/Users</b> graph shows how the work flows between users. Starting from the Register activity done by the System, it is handed over to Group1 to Receive the document and create a new case. If it should be placed in an existing case, it goes to group7, else it goes to group2 down to group 6 who ends the process. This shows that there is a proper handover of work between the various groups.
+
+# Repository Structure
+- 'Data/': Contains the data used for analysis
+- 'Notebook/': Jupyter notebook detailing the data cleaning, process discovery and analysis
+- 'Output/': Includes the PowerBI output and a PDF file
 
 # Contribution
 Contributions to this repository are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
