@@ -4,7 +4,7 @@ This repository showcases a project that leverages process mining techniques to 
 
 # Project Overview
 The goal of this project is to:
-1. Utilize process mining to uncover the complete document processing process from purchasing receiving a document to sending out the processed document.
+1. Utilize process mining to uncover the complete document processing process from receiving a document to sending out the processed document.
 2. Identify inefficiencies and potential process bottlenecks.
 3. Generate insights to improve process efficiency.
 
